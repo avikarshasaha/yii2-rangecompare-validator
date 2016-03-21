@@ -13,7 +13,7 @@ yii.validation.rangecompare = function (value, messages, options) {
         compareValue = $('#' + options.compareAttribute).val() - 0;
     }
 
-    if(options.skipOnCompareAttributeEmpty && pub.isEmpty(compareValue)){
+    if(options.skipOnCompareAttributeEmpty && yii.validation.isEmpty(compareValue)){
         console.log('skipOnCompareAttributeEmpty', compareValue)
         return;
     }
