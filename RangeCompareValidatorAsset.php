@@ -3,7 +3,7 @@ namespace avikarsha\validators;
 
 use yii\web\AssetBundle;
 
-class DateTimeRangeCompareValidatorAsset extends AssetBundle
+class RangeCompareValidatorAsset extends AssetBundle
 {
     /**
      * @inheritdoc
