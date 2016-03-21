@@ -1,0 +1,21 @@
+{
+    "name": "avikarsha/yii2-rangecompare-validator",
+    "description": "Range Compare Validator",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "avikarsha saha",
+            "email": "avikarsha.saha@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "avikarsha\\validators\\": ""
+        }
+    }
+}
