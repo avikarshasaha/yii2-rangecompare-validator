@@ -58,7 +58,7 @@ yii.validation.rangecompare = function (value, messages, options) {
 
     if (!valid) {
         console.log('invalid')
-        yii.validation(messages, options.message, value);
+        yii.validation.addMessage(messages, options.message, value);
     } else{
         console.log('valid')
     }
